@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://borcumne.com.tr/sitemap.xml
