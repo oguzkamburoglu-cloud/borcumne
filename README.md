@@ -8,7 +8,7 @@ Premium tasarımlı statik site: yalnız HTML, CSS, kendi sunucusunda barındır
 | https://borcumne.com.tr/gizlilik/ | `gizlilik/index.html` | Gizlilik politikası adresi |
 | https://borcumne.com.tr/destek/ | `destek/index.html` | Destek adresi |
 | https://borcumne.com.tr/kosullar/ | `kosullar/index.html` | (isteğe bağlı) Kullanım koşulları |
-| https://borcumne.com.tr/rehber/ | `rehber/index.html` + 20 yazı | — |
+| https://borcumne.com.tr/rehber/ | `rehber/index.html` + 21 yazı | — |
 
 ## Yükleme
 
@@ -24,7 +24,7 @@ Premium tasarımlı statik site: yalnız HTML, CSS, kendi sunucusunda barındır
 - Gizlilik politikası ve kullanım koşulları taslak; hukuki gözden geçirme önerilir (S-04, S-37). Değişirse uygulamadaki metin de (`apps/mobile/lib/ui/screens/privacy.dart`) aynı şekilde güncellenmeli.
 - Uygulama App Store'a çıkınca ana sayfadaki "Yakında App Store'da" düğmesi uygulama bağlantısıyla değiştirilir.
 
-## Rehber (20 yazı)
+## Rehber (21 yazı)
 - Yazılar `rehber/<konu>/index.html`; her birinde grafik (satır içi SVG), "Kısaca" kutusu, uyarı notu ve ilgili yazılar var. Paylaşım görselleri `rehber/img/01–20.png`.
 - Rakamlar `docs/FINANCIAL_RULES.md`'deki kaynaklara dayanır (erişim 06.11.2026). TCMB faiz tavanları veya BDDK asgari ödeme oranları değişirse ilgili yazılar güncellenmeli: 1, 2, 3, 4, 5, 11, 16, 17.
 - Site bir üretici betikle oluşturuldu (repoda `website/_kaynak/`); metin düzeltmesi küçükse doğrudan HTML'de yapılabilir.
